@@ -1,0 +1,25 @@
+#case {
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #case h4 {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  #case h5 {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  #right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .line2 {
+    height: 2px;
+    width: 130px;
+    background-color: black;
+  }

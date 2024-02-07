@@ -1,0 +1,14 @@
+#content {
+    margin-top: 100px;
+    padding: 40px 65px;
+  }
+  #content > h3 {
+    font-size: 25px;
+  }
+  #content > h1 {
+    letter-spacing: -2px;
+    margin-top: 20px;
+    font-size: 170px;
+    line-height: 160px;
+    font-weight: 500;
+  }

@@ -1,0 +1,51 @@
+
+#projects {
+    padding: 40px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+  }
+  .elem {
+    width: 50%;
+  }
+  .elem-img {
+    height: 700px;
+    width: 100%;
+    /* background-color: red; */
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+  }
+  #img1 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/2267px-Sketch_Logo.svg.png);
+  }
+  #img2 {
+    background-image: url(https://cdn.dribbble.com/users/2778493/screenshots/14196709/media/1aa3dcf38a8b00efbc482648aad3df9d.png?resize=1000x750&vertical=center);
+  }
+  #bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+  }
+  #bottom i {
+    padding: 15px 30px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 50px;
+  }
+  #bottom i:hover {
+    background-color: black;
+    color: white;
+  }
+  #bottom h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  #bottom h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(139, 134, 134);
+  }
