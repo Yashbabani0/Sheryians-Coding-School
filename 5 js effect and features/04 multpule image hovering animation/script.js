@@ -8,8 +8,10 @@ elem.forEach(function (elem, index) {
   });
   elem.addEventListener("mouseenter", function () {
     elemImage[index].style.opacity = 1;
+    // elem.style.backgroundColor = "red";
   });
   elem.addEventListener("mouseleave", function () {
     elemImage[index].style.opacity = 0;
+    // elem.style.backgroundColor = "#111";
   });
 });
