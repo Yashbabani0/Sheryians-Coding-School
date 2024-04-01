@@ -33,4 +33,8 @@ stories.addEventListener("click", function (cord) {
   // console.log(array[cord.target.id].story);
   fullScreen.style.display = "block";
   fullScreen.style.backgroundImage = `url(${array[cord.target.id].story})`;
+
+  setTimeout(function () {
+    fullScreen.style.display = "none";
+  }, 1000);
 });
