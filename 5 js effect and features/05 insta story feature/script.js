@@ -1,5 +1,5 @@
 const stories = document.querySelector("#stories");
-
+const fullScreen = document.querySelector("#full-screen");
 const array = [
   {
     dp: "https://plus.unsplash.com/premium_photo-1664267832256-176e55ccafd0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW9kZWwlMjBnaXJsfGVufDB8fDB8fHww",
@@ -29,6 +29,8 @@ array.forEach((element, idx) => {
 });
 
 stories.innerHTML = clutter;
-stories.addEventListener('click', function(cord) {
-
-})
+stories.addEventListener("click", function (cord) {
+  // console.log(array[cord.target.id].story);
+  fullScreen.style.display = "block";
+  fullScreen.style.backgroundImage = `url(${array[cord.target.id].story})`;
+});

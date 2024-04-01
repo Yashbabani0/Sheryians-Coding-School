@@ -17,6 +17,7 @@ body {
   background-color: white;
   border-radius: 10px;
   position: relative;
+  overflow: hidden;
 }
 #stories {
   width: 100%;
@@ -47,8 +48,14 @@ body {
   object-position: center;
 }
 #full-screen {
-  height: 100%;
-  width: 100%;
-  background-color: red;
+  /* background-color: red; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   position: absolute;
+  display: none;
+  min-height: 90%;
+  min-width: 90%;
+  top: 5%;
+  left: 5%;
 }
