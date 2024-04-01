@@ -16,6 +16,7 @@ body {
   height: 420px;
   background-color: white;
   border-radius: 10px;
+  position: relative;
 }
 #stories {
   width: 100%;
@@ -44,4 +45,10 @@ body {
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+#full-screen {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  position: absolute;
 }

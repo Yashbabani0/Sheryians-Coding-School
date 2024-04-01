@@ -1,3 +1,5 @@
+const stories = document.querySelector("#stories");
+
 const array = [
   {
     dp: "https://plus.unsplash.com/premium_photo-1664267832256-176e55ccafd0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW9kZWwlMjBnaXJsfGVufDB8fDB8fHww",
@@ -26,4 +28,7 @@ array.forEach((element, idx) => {
   clutter += `<div class="story"><img id='${idx}' src="${element.dp}" alt="" /></div>`;
 });
 
-document.querySelector("#stories").innerHTML = clutter;
+stories.innerHTML = clutter;
+stories.addEventListener('click', function(cord) {
+
+})
