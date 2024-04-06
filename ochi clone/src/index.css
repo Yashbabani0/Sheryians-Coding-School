@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "Neue Montreal Regular";
+  src: url("./fonts/NEUEMONTREAL-REGULAR2.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Founders Grotesk SemiBold";
+  src: url("./fonts/FOUNDERSGROTESK-SEMIBOLD.TTF") format("truetype");
+}
+
+.element-neue {
+  font-family: "Neue Montreal Regular", sans-serif;
+}
+
+.element-founders {
+  font-family: "Founders Grotesk SemiBold", sans-serif;
+}
