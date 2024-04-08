@@ -31,6 +31,25 @@ body {
     background-color: #0DA34E;
     border-radius: 50%;
 }
+#page1 #p {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 5vh;
+    font-size: 2.3vh;
+}
+#page1-somthing-para {
+    margin-top: 0.4em;
+    font-size: 2.3vh;
+}
+.header-para-outline {
+    border: 1px solid rgba(187, 174, 174, 0.785);
+    border-radius: 30px;
+    padding: 6px;
+}
+.header-para-outline:nth-last-child(2) {
+    border: none;
+    padding: 0;
+}
 #page2 {
     height: 100vh;
     width: 100%;
